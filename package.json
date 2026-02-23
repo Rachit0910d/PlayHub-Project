@@ -1,15 +1,19 @@
 {
   "name": "playhub-project",
   "version": "1.0.0",
-  "description": "This i a complete Backend Project",
+  "description": "This is a complete Backend Project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Rachit Saini",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
